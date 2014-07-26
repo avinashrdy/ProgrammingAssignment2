@@ -5,7 +5,7 @@
 
 makeCacheMatrix <- function(x = matrix()) {
 # All the code is taken as reference from the given example 
-        m <- NULL # initializing m
+           m <- NULL # initializing m
         # set: acts as a constructor to initialize the values every time function call is made
         set <- function(y){
                    x <<- y
